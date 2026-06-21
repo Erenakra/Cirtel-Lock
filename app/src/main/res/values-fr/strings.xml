@@ -1,0 +1,255 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Cirtel Lock</string>
+
+    <string name="device_admin_description">Empêche les personnes non autorisées de désinstaller l\u0027application.</string>
+    <string name="accessibility_service_description">Permet à Cirtel Lock de détecter quand les applications protégées sont ouvertes et d\u0027afficher la vérification du mot de passe.</string>
+
+    <string name="unlock_to_disable_admin">Entrez votre mot de passe pour désactiver l\u0027autorisation d\u0027administrateur.</string>
+    <string name="incorrect_pin_try_again">Code PIN incorrect. Veuillez réessayer.</string>
+    <string name="incorrect_pass_try_again">Mot de passe incorrect. Veuillez réessayer.</string>
+    <string name="password_verified_admin">Mot de passe vérifié, vous pouvez maintenant désactiver l\u0027autorisation d\u0027administrateur</string>
+    <string name="choose_app_detection">Choisissez la méthode de détection des applications</string>
+    <string name="app_detection_desc">Sélectionnez la manière dont vous souhaitez qu\u0027AppLock détecte le lancement des applications protégées.</string>
+    <string name="notif_perm">Autorisation de notification</string>
+    <string name="notif_perm_desc">AppLock a besoin de l\u0027autorisation d\u0027afficher des notifications pour vous tenir informé et continuer à fonctionner correctement en arrière-plan. Appuyez sur \u0027Suivant\u0027 pour accorder l\u0027autorisation.</string>
+    <string name="notif_perm_granted">L\u0027autorisation de notification est automatiquement accordée sur votre version d\u0027Android.</string>
+    <string name="welc_applock">Bienvenue sur AppLock</string>
+    <string name="welcome_desc">Protégez vos applications et votre vie privée avec AppLock. Nous vous guiderons à travers une configuration rapide.</string>
+    <string name="secure_apps">Sécurisez vos applications</string>
+    <string name="secure_apps_desc">Gardez vos applications privées protégées par des mécanismes de verrouillage avancés</string>
+    <string name="display_over_apps">Afficher par-dessus d\u0027autres applications</string>
+    <string name="display_over_apps_desc">AppLock a besoin de l\u0027autorisation de s\u0027afficher par-dessus d\u0027autres applications pour afficher l\u0027écran de verrouillage. Appuyez sur \u0027Suivant\u0027 et activez l\u0027autorisation.</string>
+
+    <!-- AppIntroScreen -->
+    <string name="notification_permission_required_desc">L\u0027autorisation de notification est requise pour qu\u0027AppLock fonctionne correctement.</string>
+    <string name="allow_display_over_other_apps">Veuillez autoriser AppLock à s\u0027afficher par-dessus d\u0027autres applications.</string>
+    <string name="disable_battery_optimization_title">Désactiver l\u0027optimisation de la batterie</string>
+    <string name="disable_battery_optimization_desc">Pour garantir qu\u0027AppLock fonctionne de manière fiable en arrière-plan, veuillez désactiver les optimisations de la batterie pour l\u0027application. Appuyez sur \u0027Suivant\u0027 pour ouvrir les paramètres.</string>
+    <string name="accessibility_service_title">Service d\u0027accessibilité</string>
+    <string name="accessibility_service_card_desc">Méthode standard qui fonctionne sur la plupart des appareils. Nécessite une autorisation d\u0027accessibilité. Peut présenter de légers retards sur certains OEM.</string>
+    <string name="usage_stats_title">Statistiques d\u0027utilisation</string>
+    <string name="usage_stats_card_desc">Méthode expérimentale utilisant les statistiques d\u0027utilisation du système. Fonctionne mieux sur certains appareils.</string>
+    <string name="can_change_later_in_settings">Vous pourrez changer cela plus tard dans les paramètres</string>
+    <string name="app_intro_accessibility_desc">
+Le service d\u0027accessibilité est requis pour qu\u0027AppLock fonctionne correctement.
+
+Si vous recevez le message \"Paramètre restreint\", veuillez aller manuellement dans Paramètres \u003e Applications \u003e Cirtel Lock \u003e Menu en haut à droite, et appuyez sur \"Autoriser les paramètres restreints\".
+
+Appuyez sur \u0027Suivant\u0027 pour l\u0027activer.</string>
+
+    <string name="app_intro_usage_stats_title">Autorisation des statistiques d\u0027utilisation</string>
+    <string name="app_intro_usage_stats_desc">
+Cette autorisation est requise pour détecter le lancement d\u0027applications verrouillées.
+
+Si vous recevez le message \"Paramètre restreint\", veuillez aller manuellement dans Paramètres \u003e Applications \u003e Cirtel Lock \u003e Menu en haut à droite, et appuyez sur \"Autoriser les paramètres restreints\".
+
+Appuyez sur \u0027Suivant\u0027 pour l\u0027activer.</string>
+
+    <string name="app_intro_complete_privacy_title">Confidentialité totale</string>
+    <string name="app_intro_complete_privacy_desc">Vos données ne quittent jamais votre appareil. AppLock protège votre vie privée à tout moment.</string>
+    <string name="all_permissions_required">Toutes les autorisations sont requises pour continuer.</string>
+    <string name="next_button">Suivant</string>
+    <string name="get_started_button">Commencer</string>
+
+    <!-- PasswordOverlayScreen -->
+    <string name="default_app_name">Application</string>
+    <string name="this_app">cette application</string>
+    <string name="unlock_app_title">Déverrouiller %1$s</string>
+    <string name="confirm_biometric_subtitle">Confirmez la biométrie pour continuer</string>
+    <string name="use_pin_button">Utiliser le code PIN</string>
+    <string name="enter_password_to_continue">Entrez le mot de passe pour continuer</string>
+    <string name="biometric_authentication_cd">Authentification biométrique</string>
+
+    <!-- SetPasswordScreen -->
+    <string name="set_pin_to_continue_toast">Veuillez définir un code PIN pour continuer</string>
+    <string name="authenticate_to_reset_pin_title">Authentifiez-vous pour réinitialiser le code PIN</string>
+    <string name="use_device_pin_pattern_password_subtitle">Utilisez le code PIN, le schéma ou le mot de passe de votre appareil</string>
+    <string name="enter_current_pin_title">Entrez le code PIN actuel</string>
+    <string name="confirm_pin_title">Confirmer le code PIN</string>
+    <string name="set_new_pin_title">Définir un nouveau code PIN</string>
+    <string name="create_pin_explanation">Veuillez créer un code PIN pour protéger vos applications verrouillées. Ce code PIN sera requis chaque fois que vous tenterez d\u0027accéder à une application verrouillée.</string>
+    <string name="enter_current_pin_label">Entrez votre code PIN actuel</string>
+    <string name="confirm_new_pin_label">Confirmez votre nouveau code PIN</string>
+    <string name="create_new_pin_label">Créez un nouveau code PIN</string>
+    <string name="tooltip_enter_current_pin">Entrez votre code PIN actuel pour continuer</string>
+    <string name="tooltip_confirm_pin">Veuillez saisir à nouveau le même code PIN pour confirmer</string>
+    <string name="tooltip_create_pin_min_length">Créez un code PIN d\u0027au moins 4 chiffres</string>
+    <string name="information_cd">Information</string>
+    <string name="pins_dont_match_error">Les codes PIN ne correspondent pas. Réessayez.</string>
+    <string name="pin_min_length_error">Le code PIN doit comporter au moins 4 chiffres</string>
+    <string name="re_enter_new_pin_confirm_label">Saisissez à nouveau votre nouveau code PIN pour confirmer</string>
+    <string name="reset_using_device_password_button">Réinitialiser via le mot de passe de l\u0027appareil</string>
+    <string name="cancel_button">Annuler</string>
+    <string name="start_over_button">Recommencer</string>
+    <string name="password_set_successfully_toast">Mot de passe défini avec succès</string>
+    <string name="use_pattern_button">Utiliser un schéma</string>
+    <string name="use_password_button">Utiliser un mot de passe</string>
+    <string name="use_pin_instead">Utiliser un code PIN</string>
+
+    <!-- Alphanumeric Password Strings -->
+    <string name="set_alphanumeric_password_title">Définir le mot de passe</string>
+    <string name="create_alphanumeric_password_label">Créer un mot de passe</string>
+    <string name="confirm_alphanumeric_password_label">Confirmez votre mot de passe</string>
+    <string name="enter_current_password_label">Entrez le mot de passe actuel</string>
+    <string name="password_hint">Entrez le mot de passe</string>
+    <string name="password_too_short_error">Le mot de passe doit comporter au moins 4 caractères</string>
+    <string name="password_too_long_error">Le mot de passe doit comporter au maximum 64 caractères</string>
+    <string name="passwords_dont_match_error">Les mots de passe ne correspondent pas</string>
+    <string name="incorrect_password_try_again">Mot de passe incorrect. Veuillez réessayer.</string>
+
+    <!-- MainScreen -->
+    <string name="main_screen_anti_uninstall_log">L\u0027anti-désinstallation est activé</string>
+    <string name="main_screen_overlay_permission_dialog_title">Autorisation de superposition requise</string>
+    <string name="main_screen_overlay_permission_dialog_text">Veuillez accorder à l\u0027application l\u0027autorisation de dessiner des superpositions dans les paramètres. Ceci est requis pour permettre à l\u0027application d\u0027afficher l\u0027écran de verrouillage.</string>
+    <string name="main_screen_overlay_permission_open_settings_button">Ouvrir les paramètres</string>
+    <string name="main_screen_device_admin_explanation">Cirtel Lock nécessite l\u0027autorisation d\u0027administrateur de l\u0027appareil pour empêcher la désinstallation. Cela n\u0027affectera pas les fonctionnalités de votre appareil.</string>
+    <string name="main_screen_join_community_dismiss_button">Ignorer</string>
+    <string name="main_screen_support_development_dialog_title">Soutenir le développement</string>
+    <string name="main_screen_app_protection_cd">Protection des applications</string>
+    <string name="main_screen_settings_cd">Paramètres</string>
+    <string name="main_screen_loading_applications_text">Chargement des applications…</string>
+    <string name="main_screen_search_apps_placeholder">Rechercher des applications</string>
+    <string name="main_screen_search_cd">Recherche</string>
+    <string name="main_screen_empty_search_title">Aucune application trouvée</string>
+    <string name="main_screen_empty_search_subtitle">Essayez d\u0027ajuster votre recherche</string>
+
+    <!-- SettingsScreen -->
+    <string name="settings_screen_title">Paramètres</string>
+    <string name="settings_screen_back_cd">Retour</string>
+    <string name="settings_screen_support_development_dialog_title">Soutenir le développement</string>
+    <string name="settings_screen_permission_required_dialog_title">Autorisation requise</string>
+    <string name="settings_screen_permission_required_dialog_text">Pour activer l\u0027anti-désinstallation, Cirtel Lock nécessite deux autorisations : Administrateur de l\u0027appareil et Service d\u0027accessibilité. Celles-ci sont nécessaires pour empêcher toute désinstallation non autorisée et garantir une protection robuste. Souhaitez-vous procéder à l\u0027octroi de ces autorisations ?</string>
+    <string name="settings_screen_permission_required_proceed_button">Continuer</string>
+    <string name="settings_screen_device_admin_dialog_title">Autorisation de l\u0027administrateur de l\u0027appareil</string>
+    <string name="settings_screen_device_admin_dialog_text">Cirtel Lock a besoin de l\u0027autorisation de l\u0027administrateur de l\u0027appareil pour empêcher la désinstallation non autorisée. Veuillez accorder cette autorisation dans l\u0027écran suivant. Cela n\u0027affectera pas les fonctionnalités normales de votre appareil.</string>
+    <string name="settings_screen_device_admin_grant_button">Accorder l\u0027autorisation</string>
+    <string name="settings_screen_accessibility_dialog_title">Autorisation du service d\u0027accessibilité</string>
+    <string name="settings_screen_accessibility_dialog_text">Cirtel Lock a également besoin de l\u0027autorisation du service d\u0027accessibilité pour surveiller les tentatives de désinstallation de l\u0027application et réactiver l\u0027administrateur de l\u0027appareil s\u0027il est désactivé. Cela garantit que la fonction anti-désinstallation reste efficace. Veuillez activer le service d\u0027accessibilité pour Cirtel Lock dans les paramètres.</string>
+    <string name="settings_screen_accessibility_open_settings_button">Ouvrir les paramètres</string>
+    <string name="settings_screen_lock_screen_customization_title">Personnalisation de l\u0027écran de verrouillage</string>
+    <string name="settings_screen_max_brightness_title">Luminosité maximale</string>
+    <string name="settings_screen_max_brightness_desc">Afficher l\u0027écran de verrouillage à la luminosité maximale pour plus de clarté</string>
+    <string name="settings_screen_biometric_auth_title">Authentification biométrique</string>
+    <string name="settings_screen_biometric_auth_desc">Utiliser l\u0027empreinte digitale ou la reconnaissance faciale si disponible</string>
+    <string name="settings_screen_biometric_auth_unavailable">L\u0027authentification biométrique n\u0027est pas disponible sur cet appareil.</string>
+    <string name="settings_screen_auto_prompt_biometric_title">Invite biométrique automatique</string>
+    <string name="settings_screen_auto_prompt_biometric_desc">Afficher automatiquement l\u0027invite biométrique sur l\u0027écran de verrouillage</string>
+    <string name="settings_screen_app_locking_behavior_title">Comportement de verrouillage de Cirtel</string>
+    <string name="settings_screen_unlock_behavior_title">Comportement de déverrouillage</string>
+    <string name="settings_screen_unlock_behavior_desc">Désactivez cette option si le déverrouillage provoque le redémarrage de l\u0027application</string>
+    <string name="settings_screen_unlock_behavior_option_close">Fermer l\u0027écran de verrouillage</string>
+    <string name="settings_screen_unlock_behavior_option_launch">Fermer l\u0027écran de verrouillage et lancer l\u0027application</string>
+    <string name="settings_screen_auto_unlock_title">Déverrouillage automatique</string>
+    <string name="settings_screen_auto_unlock_desc">Déverrouiller l\u0027application dès que le code PIN correct est saisi</string>
+    <string name="settings_screen_unlock_duration_title">Durée de déverrouillage</string>
+    <string name="settings_screen_unlock_duration_desc">Garder les applications déverrouillées pendant une durée définie après le premier déverrouillage</string>
+    <string name="settings_screen_unlock_duration_dialog_title">Définir la durée de déverrouillage</string>
+    <string name="settings_screen_unlock_duration_dialog_desc">Les applications resteront déverrouillées pendant cette durée après le premier déverrouillage. Sélectionnez 0 seconde pour désactiver.</string>
+    <string name="settings_screen_unlock_duration_dialog_seconds_suffix">secondes</string>
+    <string name="settings_screen_security_title">Sécurité</string>
+    <string name="settings_screen_change_pin_title">Changer le code PIN</string>
+    <string name="settings_screen_change_pin_desc">Mettre à jour votre code PIN actuel</string>
+    <string name="settings_screen_anti_uninstall_title">Protection anti-désinstallation</string>
+    <string name="settings_screen_anti_uninstall_desc">Empêcher la désinstallation non autorisée de Cirtel Lock</string>
+    <string name="settings_screen_haptic_feedback_title">Retour haptique</string>
+    <string name="settings_screen_haptic_feedback_desc">Désactiver le retour haptique lors de l\u0027appui sur les touches</string>
+    <string name="settings_screen_backend_implementation_title">Implémentation du backend</string>
+    <string name="settings_screen_backend_implementation_desc">Sélectionnez la méthode utilisée par AppLock pour détecter les applications au premier plan</string>
+    <string name="settings_screen_backend_implementation_accessibility_title">Service d\u0027accessibilité</string>
+    <string name="settings_screen_backend_implementation_accessibility_desc">Méthode standard, peut présenter de légers retards sur certains OEM.</string>
+    <string name="settings_screen_backend_implementation_usage_stats_title">Statistiques d\u0027utilisation</string>
+    <string name="settings_screen_backend_implementation_usage_stats_desc">Méthode expérimentale, fonctionne mieux sur certains appareils.</string>
+    <string name="settings_screen_about_title">À propos</string>
+    <string name="settings_screen_developer_title">Développeur</string>
+    <string name="settings_screen_developer_name">Pranav Purwar</string>
+    <string name="settings_screen_source_code_title">Code source</string>
+    <string name="settings_screen_source_code_desc">Voir le code source sur GitHub</string>
+    <string name="settings_screen_support_development_title">Soutenir le développement</string>
+    <string name="settings_screen_support_development_desc">Aidez à soutenir le développement de cette application</string>
+
+    <!-- AppLockUtils.kt -->
+    <string name="utils_battery_ignore_toast">Veuillez autoriser notre application à ignorer les optimisations de la batterie.</string>
+    <string name="utils_battery_specific_settings_not_found_toast">Impossible de trouver les paramètres spécifiques. Veuillez supprimer l\u0027application des restrictions de batterie.</string>
+    <string name="utils_battery_settings_not_found_toast">Impossible d\u0027ouvrir les paramètres de la batterie.</string>
+    <string name="utils_usage_permission_error_log">Erreur lors de la vérification de l\u0027autorisation d\u0027utilisation : </string>
+
+
+    <!-- DeviceAdminPermissionDialog.kt -->
+    <string name="device_admin_permission_dialog_title">Autorisation d\u0027administrateur de l\u0027appareil requise</string>
+    <string name="device_admin_permission_dialog_text">Vous avez activé le mode anti-désinstallation, il nécessite l\u0027autorisation d\u0027administrateur de l\u0027appareil pour protéger l\u0027application.</string>
+
+    <!-- AntiUninstallAccessibilityPermissionDialog.kt -->
+    <string name="anti_uninstall_accessibility_permission_dialog_title">Autorisation d\u0027accessibilité requise</string>
+    <string name="anti_uninstall_accessibility_permission_dialog_text">Vous avez activé le mode anti-désinstallation, mais l\u0027application nécessite des autorisations d\u0027accessibilité pour l\u0027appliquer.</string>
+
+    <!-- AdminPasswordVerificationDialog.kt -->
+    <string name="admin_password_verification_dialog_title">Vérification du mot de passe requise</string>
+    <string name="admin_password_verification_dialog_text">Veuillez entrer votre mot de passe Cirtel Lock pour désactiver les autorisations d\u0027administrateur</string>
+    <string name="password_label">Mot de passe</string>
+    <string name="password_empty_error">Le mot de passe ne peut pas être vide</string>
+    <string name="incorrect_password_error">Mot de passe incorrect</string>
+    <string name="verify_button">Vérifier</string>
+
+    <!-- AccessibilityServiceGuideDialog.kt -->
+    <string name="accessibility_guide_dialog_title">Activer le service d\u0027accessibilité</string>
+    <string name="accessibility_guide_dialog_text_1">Cirtel Lock a besoin de l\u0027autorisation d\u0027accessibilité pour détecter quand les applications protégées sont lancées.</string>
+    <string name="accessibility_guide_dialog_text_2">Veuillez suivre ces étapes :</string>
+    <string name="accessibility_guide_dialog_text_3">
+1. Appuyez sur \u0027Ouvrir les paramètres\u0027 ci-dessous\n
+2. Activez l\u0027interrupteur\n
+3. Appuyez sur \u0027Autoriser\u0027 dans la boîte de dialogue de confirmation.
+    </string>
+    <string name="accessibility_guide_open_settings_button">Ouvrir les paramètres</string>
+    <string name="settings_screen_about_and_support_title">À propos \u0026 Support</string>
+    <string name="settings_screen_join_community_title">Rejoindre la communauté</string>
+    <string name="settings_screen_unlock_duration_summary_minutes">%1$d minutes</string>
+    <string name="settings_screen_unlock_duration_summary_immediate">Verrouiller immédiatement</string>
+    <string name="settings_screen_biometric_auth_desc_available">Utilisez l\u0027empreinte digitale ou la reconnaissance faciale pour déverrouiller les applications</string>
+    <string name="settings_screen_biometric_auth_desc_unavailable">Authentification biométrique non configurée/indisponible.</string>
+    <string name="settings_screen_usage_permission_toast">Veuillez accorder l\u0027autorisation d\u0027accès à l\u0027utilisation.</string>
+    <string name="settings_screen_unlock_duration_dialog_description_new">Choisissez combien de temps les applications doivent rester déverrouillées après avoir saisi le code PIN :</string>
+    <string name="settings_screen_unlock_duration_dialog_option_immediate">Verrouiller immédiatement</string>
+    <string name="settings_screen_unlock_duration_dialog_option_minute">%1$d minute</string>
+    <string name="settings_screen_unlock_duration_dialog_option_hour">1 heure</string>
+    <string name="settings_screen_permission_required_dialog_text_1">Pour activer la protection anti-désinstallation, Cirtel Lock nécessite deux autorisations :</string>
+    <string name="settings_screen_permission_required_dialog_text_2">1. Administrateur de l\u0027appareil - Empêche la désinstallation\n2. Service d\u0027accessibilité - Surveille l\u0027utilisation des applications\n\nCes autorisations aident à protéger l\u0027application contre toute suppression sans votre connaissance.</string>
+    <string name="settings_screen_device_admin_dialog_text_1">Cirtel Lock a besoin de l\u0027autorisation d\u0027administrateur de l\u0027appareil pour empêcher la désinstallation.</string>
+    <string name="settings_screen_device_admin_dialog_text_2">Cette autorisation permet à l\u0027application de :\n• S\u0027empêcher d\u0027être désinstallée\n• Protéger vos paramètres Cirtel Lock\n\nCela n\u0027affectera pas les fonctionnalités normales de votre appareil.</string>
+    <string name="settings_screen_accessibility_dialog_text_1">Cirtel Lock a besoin de l\u0027autorisation du service d\u0027accessibilité pour surveiller l\u0027utilisation de l\u0027application.</string>
+    <string name="settings_screen_accessibility_dialog_text_2">Cette autorisation permet à l\u0027application de :\n• Détecter quand les applications sont ouvertes\n• Afficher l\u0027écran de verrouillage si nécessaire\n• Fournir une protection transparente des applications</string>
+    <string name="settings_screen_accessibility_dialog_text_3">Votre vie privée est protégée - aucune donnée n\u0027est collectée ou partagée.</string>
+    <string name="settings_screen_fallback_selection_dialog_title">Sélectionner la méthode de secours</string>
+    <string name="settings_screen_fallback_selection_dialog_desc">Choisissez une méthode de secours à utiliser lorsque la méthode principale échoue :</string>
+    <string name="confirm_button">Confirmer</string>
+    <string name="grant_permission_button">Accorder l\u0027autorisation</string>
+    <string name="dialog_text_press_grant_permission_to_open_settings">Appuyez sur \u0027Accorder l\u0027autorisation\u0027 pour ouvrir les paramètres.</string>
+    <string name="enable_button">Activer</string>
+    <string name="settings_screen_advanced_title">Avancé</string>
+    <string name="settings_screen_export_logs_title">Exporter les journaux</string>
+    <string name="settings_screen_export_logs_desc">Exporter les journaux de l\u0027application pour le débogage.</string>
+    <string name="settings_Screen_export_audit">Exporter les journaux de sécurité</string>
+    <string name="settings_screen_export_audit_desc">Exporter les journaux de sécurité pour examen.</string>
+    <string name="settings_screen_export_logs_success">Journaux exportés</string>
+    <string name="settings_screen_export_logs_error">Échec de l\u0027exportation des journaux</string>
+    <string name="settings_screen_version_template">Version %1$s</string>
+
+    <!-- Pattern Lock Strings -->
+    <string name="enter_pattern_to_continue">Dessinez le schéma pour continuer</string>
+    <string name="incorrect_pattern_try_again">Schéma incorrect. Veuillez réessayer.</string>
+    <!-- Permission Warning Banner Strings -->
+    <string name="permission_warning_overlay_title">Afficher par-dessus d\u0027autres applications</string>
+    <string name="permission_warning_overlay_desc">Affiche l\u0027écran de verrouillage sur les applications protégées.</string>
+    <string name="permission_warning_accessibility_title">Service d\u0027accessibilité</string>
+    <string name="permission_warning_accessibility_desc">Détecte quand les applications protégées sont lancées.</string>
+    <string name="permission_warning_usage_stats_title">Accès à l\u0027utilisation</string>
+    <string name="permission_warning_usage_stats_desc">Détecte quand les applications protégées sont lancées.</string>
+    <string name="permission_warning_device_admin_title">Administrateur de l\u0027appareil</string>
+    <string name="permission_warning_device_admin_desc">Empêche AppLock d\u0027être désinstallé.</string>
+    <string name="permission_warning_title_suffix"> requis</string>
+
+    <string name="maybe_later">Peut-être plus tard</string>
+    <string name="app_protection_service_channel_name">Service de protection des applications</string>
+    <string name="app_protection_service_running">La protection de l\u0027application est active</string>
+    <string name="select_language">Choisir la langue</string>
+    <string name="change_language">Changer de langue</string>
+</resources>
