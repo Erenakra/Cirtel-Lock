@@ -96,6 +96,9 @@ class AppLockRepository(private val context: Context) {
     fun isLoggingEnabled(): Boolean = preferencesRepository.isLoggingEnabled()
     fun setLoggingEnabled(enabled: Boolean) = preferencesRepository.setLoggingEnabled(enabled)
 
+    fun isInitialAutoLockDone(): Boolean = preferencesRepository.isInitialAutoLockDone()
+    fun setInitialAutoLockDone(done: Boolean) = preferencesRepository.setInitialAutoLockDone(done)
+
     fun setActiveBackend(backend: BackendImplementation) =
         backendServiceManager.setActiveBackend(backend)
 

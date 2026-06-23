@@ -155,6 +155,14 @@ class PreferencesRepository(context: Context) {
         settingsPrefs.edit { putBoolean(KEY_LOGGING_ENABLED, enabled) }
     }
 
+    fun isInitialAutoLockDone(): Boolean {
+        return settingsPrefs.getBoolean(KEY_INITIAL_AUTO_LOCK_DONE, false)
+    }
+
+    fun setInitialAutoLockDone(done: Boolean) {
+        settingsPrefs.edit { putBoolean(KEY_INITIAL_AUTO_LOCK_DONE, done) }
+    }
+
     companion object {
         private const val PREFS_NAME_APP_LOCK = "app_lock_prefs"
         private const val PREFS_NAME_SETTINGS = "app_lock_settings"
@@ -169,6 +177,7 @@ class PreferencesRepository(context: Context) {
         private const val KEY_BACKEND_IMPLEMENTATION = "backend_implementation"
         private const val KEY_COMMUNITY_LINK_SHOWN = "community_link_shown"
         private const val KEY_LOGGING_ENABLED = "logging_enabled"
+        private const val KEY_INITIAL_AUTO_LOCK_DONE = "initial_auto_lock_done"
         private const val LAST_VERSION_CODE = "last_version_code"
         private const val KEY_APPLOCK_ENABLED = "applock_enabled"
         private const val KEY_AUTO_UNLOCK = "auto_unlock"

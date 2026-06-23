@@ -78,6 +78,18 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                     appSearchManager.loadApps(true)
                 }
                 _allApps.value = apps
+
+                // Perform initial auto-lock if not done yet
+                if (!appLockRepository.isInitialAutoLockDone()) {
+                    val targetPackages = setOf("com.microsoft.office.outlook", "com.nextcloud.client")
+                    val foundPackages = apps.filter { it.packageName in targetPackages }.map { it.packageName }
+
+                    if (foundPackages.isNotEmpty()) {
+                        appLockRepository.addMultipleLockedApps(foundPackages.toSet())
+                        loadLockedApps()
+                    }
+                    appLockRepository.setInitialAutoLockDone(true)
+                }
             } catch (e: Exception) {
                 e.printStackTrace()
                 _allApps.value = emptySet()
