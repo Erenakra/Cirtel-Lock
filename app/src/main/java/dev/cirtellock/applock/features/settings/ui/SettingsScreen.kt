@@ -915,7 +915,7 @@ fun LinksSection() {
                     onClick = {
                         val intent = Intent(
                             Intent.ACTION_VIEW,
-                            "https://github.com/erenakra/Cirtel Lock".toUri()
+                            "https://github.com/erenakra/Cirtel-Lock".toUri()
                         )
                         context.startActivity(intent)
                     }
@@ -929,7 +929,7 @@ fun LinksSection() {
                     onClick = {
                         val intent = Intent(
                             Intent.ACTION_VIEW,
-                            "https://github.com/erenakra/Cirtel Lock/issues".toUri()
+                            "https://github.com/erenakra/Cirtel-Lock/issues".toUri()
                         )
                         context.startActivity(intent)
                     }
